@@ -1,0 +1,39 @@
+﻿  GroundSelect.cpp
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(25): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(22): warning C4101: 'data' :참조되지 않은 지역 변수입니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(23): warning C4101: 'ptr' :참조되지 않은 지역 변수입니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(35): warning C4101: 'dR' :참조되지 않은 지역 변수입니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(35): warning C4101: 'dG' :참조되지 않은 지역 변수입니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(34): warning C4101: 'dRGB' :참조되지 않은 지역 변수입니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(35): warning C4101: 'dA' :참조되지 않은 지역 변수입니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(35): warning C4101: 'dB' :참조되지 않은 지역 변수입니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(70): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(117): warning C4244: '=': 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(118): warning C4244: '=': 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(131): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(148): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(209): warning C4244: '=': 'double'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(210): warning C4244: '=': 'double'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(311): warning C4244: '=': 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(312): warning C4244: '=': 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(313): warning C4244: '=': 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(314): warning C4244: '=': 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(331): warning C4244: '=': 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(332): warning C4244: '=': 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(333): warning C4244: '=': 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(334): warning C4244: '=': 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(348): warning C4244: '=': 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(349): warning C4244: '=': 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(350): warning C4244: '=': 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(351): warning C4244: '=': 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(255): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(226): warning C4101: 'velocity' :참조되지 않은 지역 변수입니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(545): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(546): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(557): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(558): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(491): warning C4101: 'factor' :참조되지 않은 지역 변수입니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(490): warning C4101: 'distance' :참조되지 않은 지역 변수입니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(485): warning C4101: 'y' :참조되지 않은 지역 변수입니다.
+c:\users\heo and park\source\repos\godorigui\godorigui\groundselect.cpp(485): warning C4101: 'x' :참조되지 않은 지역 변수입니다.
+  GodoriGUI.vcxproj -> C:\Users\Heo and Park\source\repos\GodoriGUI\Debug\GodoriGUI.exe
