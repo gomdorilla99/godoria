@@ -236,6 +236,20 @@ int CDiler::GUI_GETSELECT(int gui, int attack) {
 		break;
 	}
 
+	mpPlayer1->GetFloor()->Clear();
+	mpPlayer1->GetHand()->Clear();
+	mpPlayer1->mBand.Clear();
+	mpPlayer1->mCharictor.Clear();
+	mpPlayer1->mPi.Clear();
+	
+	mpPlayer2->GetFloor()->Clear();
+	mpPlayer2->GetHand()->Clear();
+	mpPlayer2->mBand.Clear();
+	mpPlayer2->mCharictor.Clear();
+	mpPlayer2->mPi.Clear();
+	mOnFloor.Clear();
+
+
 	//Wait Semaphore
 ReTry:
 	return index;

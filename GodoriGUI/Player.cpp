@@ -327,7 +327,6 @@ CCard *CPlayer::MatchingCardPost(CCard * pCard, CCardPorket *MatchedCardList, CC
 	switch (count)
 	{
 	case 0://  매칭되는 것이 없는 경우 딜러가 그 카드를 가진다
-		TRACE("No Mached Card\r\n");
 		if ((pCard->mCharic.mTheMonth == pCard_1st->mCharic.mTheMonth))
 		{
 			if (!pCard_1stMatched)
@@ -343,7 +342,6 @@ CCard *CPlayer::MatchingCardPost(CCard * pCard, CCardPorket *MatchedCardList, CC
 		return nullptr;
 		break;
 	case 1://  한 카드와 매칭되는 경우 매칭되는 카드와 가지고 온카드를 MatchedCardList에 담는다.
-		TRACE("One card Mached\r\n");
 		{
 			
 				CCard *MatchedCard = *(MatchedCardList->Begin());

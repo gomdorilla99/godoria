@@ -294,6 +294,7 @@ void CGodoriGUIView::OnPaint()
 void CGodoriGUIView::GameStartSeq(void)
 {
 	//Clean
+#if 0
 	for (int j = 0; j < 10; j++)
 	{
 		CAnimationItem *pAni = new CAnimationItem(mGroundSelect.CenterPoint, mSelectBar.refPoint[j], j, 10 + j);
@@ -305,6 +306,7 @@ void CGodoriGUIView::GameStartSeq(void)
 		CAnimationItem *pAni = new CAnimationItem(mGroundSelect.CenterPoint, mOpSelectBar.refPoint[10 - j], 20 + j, 10 + j);
 		AnimationQueue.push(pAni);
 	}
+#endif
 }
 
 

@@ -21,8 +21,6 @@ HANDLE ghSemaphore_Wait_UI_Select;
 queue<GUIMessage_t *> gGUIQueue;
 queue<GUI_SELECT_t *> gSelctQueue;
 
-
-
 DWORD WINAPI ThreadDillerProc(LPVOID);
 DWORD WINAPI ThreadPlayer1Proc(LPVOID);
 DWORD WINAPI ThreadPlayer2Proc(LPVOID);
@@ -40,20 +38,13 @@ DWORD WINAPI ThreadDillerProc(LPVOID lpParam)
 
 	while (bContinue)
 	{
-		// Try to enter the semaphore gate.
-
 		dwWaitResult = WaitForSingleObject(
 			ghSemaphore_To_Diller,  // handle to semaphore
 			100000UL);      // zero-second time-out interval
 
 		switch (dwWaitResult)
 		{
-			// The semaphore object was signaled.
 		case WAIT_OBJECT_0:
-			// TODO: Perform task
-		//	TRACE("Diller %d: Get Mesage\n", GetCurrentThreadId());
-			// Simulate thread spending time on task
-			// Release the semaphore when task is finished
 			if(Turn==0)
 			{ 
 				if (!ReleaseSemaphore(
@@ -167,6 +158,7 @@ DWORD WINAPI ThreadPlayer2Proc(LPVOID lpParam)
 		}
 	}
 	TRACE("PLAYER2 DONE");
+
 	return TRUE;
 }
 

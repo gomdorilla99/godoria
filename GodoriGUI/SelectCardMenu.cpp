@@ -53,6 +53,7 @@ SelectCardMenu::SelectCardMenu()
 SelectCardMenu::~SelectCardMenu()
 {
 	curBitmap.DeleteObject();
+	BuffBMP.DeleteObject();
 	mLock = 0;
 }
 

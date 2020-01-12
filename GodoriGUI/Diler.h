@@ -50,6 +50,11 @@ public:
 		return &mOnFloor;
 	};
 
+	~CDiler()
+	{
+		AfxMessageBox(_T("¼Ò¸êÀÚ"));
+	};
+
 	int	GetCount()
 	{
 		return NumOfRemainCard;
